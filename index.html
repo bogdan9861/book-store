@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header-top">
+          <img class="logo" src="images/logo.png" alt="">
+          <div class="header-top__content-wrap">
+            <li class="header-top__content-item">
+              <a class="header-top__link hover-anim" href="#">
+                Схема проезда на склад</a>
+            </li>
+            <li class="header-top__content-item">
+              <a class="header-top__link hover-anim" href="#">
+                Филиалы
+              </a>
+            </li>
+          </div>
+          <div class="header-top__content-wrap">
+            <li class="header-top__content-item">
+              <a href="#" class="header-top__link hover-anim">Мы на портале
+                поставщиков!</a>
+            </li>
+            <li class="header-top__content-item ">
+              <a class="header-top__link hover-anim" href="#">Осуществляем экспортные
+                поставки!
+              </a>
+            </li>
+          </div>
+          <div class="header-top__content-wrap">
+            <li class="header-top__content-item">
+              <a class="header-top__contact-link" href="#">
+                s.valera@soyuz-k.com
+              </a>
+            </li>
+            <li class="header-top__content-item">
+              <a class="header-top__contact-link" href="#">8 499 123-34-89</a>
+            </li>
+          </div>
+          <div class="header-top__content-wrap">
+            <li class="header-top__content-item">
+              <a class="header-top__contact-link" href="#">8 499 123-45-19</a>
+            </li>
+            <li class="header-top__content-item">
+              <a class="header-top__contact-link" href="#">8 499 123-42-78</a>
+            </li>
+          </div>
+          <div class="header-top__content-wrap">
+            <li class="header-top__content-item">
+              <a class="header-top__contact-link" href="#">8 499 123-45-19</a>
+            </li>
+            <li class="header-top__content-item">
+              <a class="header-top__contact-link" href="#">8 499 123-42-78</a>
+            </li>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav class="bottom-menu">
+            <ul class="bottom-menu__list">
+              <li class="bottom-menu__list-item">
+                <button class="bottom-menu__drop-btn bottom-menu__list-link" href="#">
+                  <span class="hover-anim drop-text">Прайс-листы</span>
+                  <img class="drop-img" src="images/down-arrow.svg" alt="">
+                  <ul class="drop-list">
+                    <li class="drop-list__item"><a class="drop-list__link" href="#">Прайс-листы</a></li>
+                    <li class="drop-list__item"><a class="drop-list__link" href="#">Лидеры продаж (Топы)</a></li>
+                    <li class="drop-list__item"><a class="drop-list__link" href="#">Акции</a></li>
+                  </ul>
+                </button>
+              </li>
+
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__drop-btn bottom-menu__list-link " href="#">
+                  <span class="hover-anim drop-text">О нас</span>
+                  <img class="drop-img" src="images/down-arrow.svg" alt="">
+                  <ul class="drop-list">
+                    <li class="drop-list__item"><a class="drop-list__link" href="#">Прайс-листы</a></li>
+                    <li class="drop-list__item"><a class="drop-list__link" href="#">Лидеры продаж (Топы)</a></li>
+                    <li class="drop-list__item"><a class="drop-list__link" href="#">Акции</a></li>
+                  </ul>
+                </a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim" href="#">Оптовикам</a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim" href="#">Поставщикам</a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim" href="#">Розница</a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim" href="#">Новые поставщики</a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim" href="#">Контакты</a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim blue" href="#">Новинки</a>
+              </li>
+              <li class="bottom-menu__list-item">
+                <a class="bottom-menu__list-link hover-anim red" href="#">Акции</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main__inner">
+        <div class="main__content-slider">
+          <div class="main__content-item">
+            <h2 class="main__content-subtitle">Специальные предложения:</h2>
+            <h1 class="main__content-title">ИЗДАТЕЛЬСТВО «РУСИЧ» </h1>
+            <p class="main__content-text">
+              Издательство «Русич» известно на книжном рынке более 30 лет. Ассортимент печатной продукции издательства
+              рассчитан на детей
+              от самых маленьких слушателей и читателей до средних и старших школьников, книги отличаются большим
+              количеством до...
+            </p>
+            <button class="main__content-btn">Прочитайте больше</button>
+          </div>
+          <div class="main__content-item">
+            <h2 class="main__content-subtitle">Специальные предложения:</h2>
+            <h1 class="main__content-title">ИЗДАТЕЛЬСТВО «РУСИЧ» </h1>
+            <p class="main__content-text">
+              Издательство «Русич» известно на книжном рынке более 30 лет. Ассортимент печатной продукции издательства
+              рассчитан на детей
+              от самых маленьких слушателей и читателей до средних и старших школьников, книги отличаются большим
+              количеством до...
+            </p>
+            <button class="main__content-btn">Прочитайте больше</button>
+          </div>
+          <div class="main__content-item">
+            <h2 class="main__content-subtitle">Специальные предложения:</h2>
+            <h1 class="main__content-title">ИЗДАТЕЛЬСТВО «РУСИЧ» </h1>
+            <p class="main__content-text">
+              Издательство «Русич» известно на книжном рынке более 30 лет. Ассортимент печатной продукции издательства
+              рассчитан на детей
+              от самых маленьких слушателей и читателей до средних и старших школьников, книги отличаются большим
+              количеством до...
+            </p>
+            <button class="main__content-btn">Прочитайте больше</button>
+          </div>
+          <div class="main__content-item">
+            <h2 class="main__content-subtitle">Специальные предложения:</h2>
+            <h1 class="main__content-title">ИЗДАТЕЛЬСТВО «РУСИЧ» </h1>
+            <p class="main__content-text">
+              Издательство «Русич» известно на книжном рынке более 30 лет. Ассортимент печатной продукции издательства
+              рассчитан на детей
+              от самых маленьких слушателей и читателей до средних и старших школьников, книги отличаются большим
+              количеством до...
+            </p>
+            <button class="main__content-btn">Прочитайте больше</button>
+          </div>
+          <div class="main__content-item">
+            <h2 class="main__content-subtitle">Специальные предложения:</h2>
+            <h1 class="main__content-title">ИЗДАТЕЛЬСТВО «РУСИЧ» </h1>
+            <p class="main__content-text">
+              Издательство «Русич» известно на книжном рынке более 30 лет. Ассортимент печатной продукции издательства
+              рассчитан на детей
+              от самых маленьких слушателей и читателей до средних и старших школьников, книги отличаются большим
+              количеством до...
+            </p>
+            <button class="main__content-btn">Прочитайте больше</button>
+          </div>
+        </div>
+        <div class="main__slider">
+          <div class="main__slider-item">
+            <img data-lazy="images/slider-img-1.png" alt="">
+          </div>
+          <div class="main__slider-item">
+            <img data-lazy="images/slider-img-1.png" alt="">
+          </div>
+          <div class="main__slider-item">
+            <img data-lazy="images/slider-img-1.png" alt="">
+          </div>
+          <div class="main__slider-item">
+            <img data-lazy="images/slider-img-1.png" alt="">
+          </div>
+          <div class="main__slider-item">
+            <img data-lazy="images/slider-img-1.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tabs__inner">
+          <li class="tab-item"><a class="tab tab--active" href="#tab-1">Издательство «Русич»</a></li>
+          <li class="tab-item"><a class="tab" href="#tab-2">Издательство «Грамотей»</a></li>
+          <li class="tab-item"><a class="tab" href="#tab-3">Компания «Правильные игры»</a></li>
+          <li class="tab-item"><a class="tab" href="#tab-4">Издательство «РуДа»</a></li>
+          <li class="tab-item"><a class="tab" href="#tab-5">Издательство «Розовый жираф»</a></li>
+        </div>
+        <div id="tab-1" class="tabs__content tabs__content--active">
+          <form class="tabs__content-form" action="">
+            <input class="tabs__content-input" type="text" placeholder="Поиск по названию, автору, ISBN, артикулу1">
+            <button class="tabs__content-btn" type="submit"> <span class="tabs__content-btntext">найти</span></button>
+          </form>
+        </div>
+        <div id="tab-2" class="tabs__content ">
+          <form class="tabs__content-form" action="">
+            <input class="tabs__content-input" type="text" placeholder="Поиск по названию, автору, ISBN, артикулу2">
+            <button class="tabs__content-btn" type="submit"> <span class="tabs__content-btntext">найти</span></button>
+          </form>
+        </div>
+        <div id="tab-3" class="tabs__content">
+          <form class="tabs__content-form" action="">
+            <input class="tabs__content-input" type="text" placeholder="Поиск по названию, автору, ISBN, артикулу3">
+            <button class="tabs__content-btn" type="submit"> <span class="tabs__content-btntext">найти</span></button>
+          </form>
+        </div>
+        <div id="tab-4" class="tabs__content">
+          <form class="tabs__content-form" action="">
+            <input class="tabs__content-input" type="text" placeholder="Поиск по названию, автору, ISBN, артикулу4">
+            <button class="tabs__content-btn" type="submit"> <span class="tabs__content-btntext">найти</span></button>
+          </form>
+        </div>
+        <div id="tab-5" class="tabs__content">
+          <form class="tabs__content-form" action="">
+            <input class="tabs__content-input" type="text" placeholder="Поиск по названию, автору, ISBN, артикулу5">
+            <button class="tabs__content-btn" type="submit"> <span class="tabs__content-btntext">найти</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="price">
+    <div class="container">
+      <div class="price__top-content">
+        <h1 class="price__top-content-title">Свежие прайс-листы: Качайте или смотрите онлайн!</h1>
+        <p class="price__top-content-tiptext">
+          Нажмите на нужную категорию,
+          чтобы раскрыть прайс-листы
+        </p>
+      </div>
+      <div class="price__slider">
+        <a class="price__slider-item" href="#">
+          <img class="price__slider-img" src="images/price-slider-1.jpg" alt="">
+        </a>
+        <a class="price__slider-item" href="#">
+          <img class="price__slider-img" src="images/price-slider-2.jpg" alt="">
+        </a>
+        <a class="price__slider-item" href="#">
+          <img class="price__slider-img" src="images/price-slider-3.jpg" alt="">
+        </a>
+        <a class="price__slider-item" href="#">
+          <img class="price__slider-img" src="images/price-slider-1.jpg" alt="">
+        </a>
+        <a class="price__slider-item" href="#">
+          <img class="price__slider-img" src="images/price-slider-2.jpg" alt="">
+        </a>
+        <a class="price__slider-item" href="#">
+          <img class="price__slider-img" src="images/price-slider-3.jpg" alt="">
+        </a>
+      </div>
+      <div class="price-publishers">
+        <div class="price-publishers__inner">
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-1.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-2.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-3.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-4.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-5.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-6.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-7.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-8.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-9.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-10.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-12.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-13.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-14.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-15.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-16.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-17.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-18.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-19.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-20.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-21.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-22.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-23.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-24.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-25.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-26.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-27.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-28.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-29.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-30.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-31.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-32.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-33.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-34.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-35.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-36.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-37.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-38.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-39.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-40.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-41.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-42.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-43.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-44.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-45.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-46.png" alt="">
+          </li>
+          <li class="price-publishers__item">
+            <img class="price-publisher__img" src="images/publisher-img-47.png" alt="">
+          </li>
+        </div>
+      </div>
+      <div class="price__bottom-content__inner">
+        <div class="price__bottom-content">
+          <h3 class="price__bottom-content-title">Ещё более 100 издательств</h3>
+          <p class="price__bottom-content-text">Книги, учебники, литература и другая печатная продукция </p>
+        </div>
+        <button class="price__bottom-content-btn">
+          <span class="price__bottom-content-btn-span">Перейти</span>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M15.5303 6.53033C15.8232 6.23744 15.8232 5.76256 15.5303 5.46967L10.7574 0.696699C10.4645 0.403806 9.98959 0.403806 9.6967 0.696699C9.40381 0.989593 9.40381 1.46447 9.6967 1.75736L13.9393 6L9.6967 10.2426C9.40381 10.5355 9.40381 11.0104 9.6967 11.3033C9.98959 11.5962 10.4645 11.5962 10.7574 11.3033L15.5303 6.53033ZM0 6.75H15V5.25H0V6.75Z"
+              fill="#63A6DD" fill-opacity="0.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="news">
+    <div class="container">
+      <div class="news__top-content">
+        <h1 class="news__top-title price__top-content-title">Акции. Новинки. Новые поставщики.</h1>
+        <p class="news__top-tiptext price__top-content-tiptext">
+          Нажмите на нужную категорию,
+          чтобы раскрыть содержимое
+        </p>
+      </div>
+      <div class="news-header">
+        <a class="news-header__item" href="#">
+          <img src="images/news-header__img-1.jpg" alt="">
+        </a>
+        <a class="news-header__item" href="#">
+          <img src="images/news-header__img-2.jpg" alt="">
+        </a>
+        <a class="news-header__item" href="#">
+          <img src="images/news-header__img-3.jpg" alt="">
+        </a>
+      </div>
+      <div class="news-body">
+        <div class="news__slider">
+          <a class="news__slider-item" href="#">
+            <img src="images/slider-news-img-1.jpg" alt="">
+          </a>
+          <a class="news__slider-item" href="#">
+            <img src="images/slider-news-img-1.jpg" alt="">
+          </a>
+          <a class="news__slider-item" href="#">
+            <img src="images/slider-news-img-1.jpg" alt="">
+          </a>
+        </div>
+        <h3 class="news-body__title">Сказка в книжном</h3>
+        <p class="news-body__text">
+          В рамках спецификации современных стандартов, представители современных социальных резервов рассмотрены
+          исключительно в разрезе маркетинговых и финансовых предпосылок. Кстати, явные признаки победы
+          институционализации и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на
+          независимые элементы.
+        </p>
+        <p class="news-body__text">
+          Вот вам яркий пример современных тенденций - постоянное информационно-пропагандистское обеспечение нашей
+          деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для новых
+          предложений.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages__top-content price__top-content">
+        <h1 class="advantages__top-title price__top-content-title ">Преимущества работы с нами:</h1>
+        <p class="advantages__top-tiptext price__top-content-tiptext">
+          Нажмите на нужную категорию,
+          чтобы раскрыть содержимое
+        </p>
+      </div>
+      <div class="advantages__slider">
+        <a class="advantages__slider-item">
+          <img src="images/advantages-slider-1.jpg" alt="">
+        </a>
+        <a class="advantages__slider-item">
+          <img src="images/advantages-slider-2.jpg" alt="">
+        </a>
+        <a class="advantages__slider-item">
+          <img src="images/advantages-slider-3.jpg" alt="">
+        </a>
+        <a class="advantages__slider-item">
+          <img src="images/advantages-slider-1.jpg" alt="">
+        </a>
+        <a class="advantages__slider-item">
+          <img src="images/advantages-slider-2.jpg" alt="">
+        </a>
+        <a class="advantages__slider-item">
+          <img src="images/advantages-slider-3.jpg" alt="">
+        </a>
+      </div>
+      <div class="advantages__info">
+        <p class="advantages__info-text">
+          Условия работы для юридических лиц и индивидуальных предпринимателей, планирующих долгосрочное сотрудничество.
+        </p>
+        <button class="advantages__info-btn">Скачать прайсы</button>
+      </div>
+      <div class="advantages__list">
+        <div class="advantages__list-box">
+          <img class="advantages__list-img" src="images/advantages-box-img-1.svg" alt="">
+          <p class="advantages__list-text">
+            Фиксированная, постоянная скидка!
+          </p>
+        </div>
+        <div class="advantages__list-box">
+          <img class="advantages__list-img" src="images/advantages-box-img-2.svg" alt="">
+          <p class="advantages__list-text">
+            Предоставление хороших скидок от прайсов издательств.
+          </p>
+        </div>
+        <div class="advantages__list-box">
+          <img class="advantages__list-img" src="images/advantages-box-img-3.svg" alt="">
+          <p class="advantages__list-text">
+            Более 100 издательств с одного склада!
+          </p>
+        </div>
+        <div class="advantages__list-box">
+          <img class="advantages__list-img" src="images/advantages-box-img-4.svg" alt="">
+          <p class="advantages__list-text">
+            Доставка по всей России - через транспортные компании.
+          </p>
+        </div>
+      </div>
+      <ul class="advantages__more-info">
+        <h3 class="advantages__more-info-title">А также:</h3>
+        <li class="advantages__more-info-item mark">
+          14 дней на проверку качества и количества товара с момента получения товара.
+        </li>
+        <li class="advantages__more-info-item mark">
+          При увеличении оборота более 100'000 рублей в месяц, обсуждаются дополнительные скидки.
+        </li>
+        <li class="advantages__more-info-item mark">
+          Возможность получить отсрочку платежа, рассматривается индивидуально.
+        </li>
+        <li class="advantages__more-info-item mark">
+          Мы работаем и с НДС, и без НДС, в зависимости от клиента.
+        </li>
+        <li class="advantages__more-info-item mark">
+          Бесплатная доставка заказов от 15000 рублей по Москве. Доставка по Московской области обсуждается с
+          менеджером.
+        </li>
+        <li class="advantages__more-info-item mark">
+          Развитая сеть филиалов. Наши филиалы есть в следующих городах: Москва, Екатеринбург, Пермь, Рязань, Люберцы.
+        </li>
+        <li class="advantages__more-info-item mark">
+          Работа, как с крупным, так и с мелким оптом.
+        </li>
+        <li class="advantages__more-info-item mark">
+          Подбор товара под Вашу специфику торговли (для профильных и не профильных магазинов).
+        </li>
+      </ul>
+      <ol class="advantages__more-info order-list">
+        <h3 class="advantages__more-info-title">
+          Для заключения договора потребуются копии следующих документов:
+        </h3>
+        <li class="advantages__more-info-item order">
+          14 дней на проверку качества и количества товара с момента получения товара.
+        </li>
+        <li class="advantages__more-info-item order">
+          При увеличении оборота более 100'000 рублей в месяц, обсуждаются дополнительные скидки.
+        </li>
+        <li class="advantages__more-info-item order">
+          Возможность получить отсрочку платежа, рассматривается индивидуально.
+        </li>
+      </ol>
+      <div class="advantages__more-info-wrap">
+        <h3 class="advantages__more-info-wrap__title">И заполненная Карточка клиента:</h3>
+        <div class="advantages__more-info-wrap__buttons">
+          <button class="advantages__more-info-wrap__btn">Скачать Карточку клиента ИП</button>
+          <button class="advantages__more-info-wrap__btn">Скачать Карточку клиента ООО</button>
+        </div>
+        <p class="advantages__more-info-wrap__text">
+          Всю информацию выслать на адрес
+          <span>
+            <a class="advantages__more-info-wrap__link" href="mailto:s.valera@soyuz-k.com">
+              s.valera@soyuz-k.com
+            </a>
+          </span>
+          с пометкой «Запрос условий сотрудничества».
+        </p>
+        <p class="advantages__more-info-wrap__text">
+          После получения от Вас запроса, мы высылаем на указанный адрес электронной почты наши предложения по работе в
+          файле таблицы по тем издательствам, которые мы вам может предложить, уже с вашими скидками и отсрочками.
+        </p>
+      </div>
+      <div class="advantages__about">
+        <div class="advantages__about-item">
+          <h3 class="advantages__about-item__title">Коротко о нас:</h3>
+          <p class="advantages__about-item__text">
+            ООО «Торговая компания СОЮЗ» – крупная дистрибьюторская компания.
+            На книжном рынке наша компания уже более 16 лет и зарекомендовала себя надёжным поставщиком. География
+            поставок – РФ,СНГ, дальнее зарубежье. Мы предлагаем широкий ассортимент продукции различных издательств и
+            производителей:
+          </p>
+        </div>
+        <div class="advantages__about-item">
+          <h3 class="advantages__about-item__title">Наша цель:</h3>
+          <p class="advantages__about-item__text">
+            Качественное выполнение заказов клиентов в максимально короткие сроки. Также предоставить партнерам
+            оптимальные выгодные условия и максимальный ассортимент, чтобы наш партнер мог в одном месте получить
+            максимум того, что есть на данном рынке.
+          </p>
+        </div>
+        <div class="advantages__about-item">
+          <h3 class="advantages__about-item__title">К Вашим услугам:</h3>
+          <p class="advantages__about-item__text">
+            Высокопрофессиональные менеджеры, оперативность выполнения заказов, самый большой ассортимент на одном
+            складе.
+          </p>
+        </div>
+      </div>
+      <div class="sevices">
+        <div class="sevices__inner">
+          <div class="sevices__box">
+            <img class="sevices__box-img" src="images/services-box-img-1.svg" alt="">
+            <h4 class="sevices__box-title">Единый поставщик</h4>
+            <p class="sevices__box-text">
+              Якнига - это онлайн сервис Группы компаний "Союз-К", который позволяет заказать книги, канцелярию, детские
+              товары. Обновляйте свой ассортимент актуальными товарами, поддерживайте интерес своих покупателей.
+              Минимальная партия заказа - всего 15000 рублей.
+            </p>
+            <button class="sevices__box-btn">Скачать прайсы</button>
+          </div>
+          <div class="sevices__box">
+            <img class="sevices__box-img" src="images/services-box-img-2.svg" alt="">
+            <h4 class="sevices__box-title">Скорость и логистика</h4>
+            <p class="sevices__box-text">
+              Вы экономите время и деньги, минимизируете транспортные расходы. Ведь вместо множества издательств вы
+              работаете с единым поставщиком! При этом действуют особые персональные скидки. А для удобства наших
+              региональных клиентов мы развиваем сеть филиалов и представительств.
+            </p>
+            <button class="sevices__box-btn">Региональные филиалы</button>
+          </div>
+          <div class="sevices__box">
+            <img class="sevices__box-img" src="images/services-box-img-3.svg" alt="">
+            <h4 class="sevices__box-title">Скидки и транспорт</h4>
+            <p class="sevices__box-text">
+              Мы делаем существенные скидки от цен, указанных в прайс-листах наших партнеров. А затем наш транспортный
+              отдел организует доставку заказов по Москве, чтобы оптимизировать логистику заказчика и осуществить подвоз
+              груза на грузовые терминалы или отправить транспортными компаниями в регионы.
+            </p>
+            <button class="sevices__box-btn">Условия сотрудничества</button>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="cart__inner">
+          <h3 class="cart__title">По любым возникшим вопросам, Вы можете связаться с Руководителем направления:</h3>
+          <div class="cart__link-wrap">
+            <img src="images/cart-phone.svg" alt="">
+            <p class="cart__link">Тел.: <span><a href="tel:+79284267886">+79284267886</a></span>,
+              <span><a href="tel:1234278">123-42-78</a></span>, <span><a href="tel:1237458">123-80-54</a></span>,
+              <span><a href="tel:1233489">123-34-89</a></span>, <span><a href="tel:1238054">123-80-54</a></span>
+            </p>
+          </div>
+          <div class="cart__link-wrap">
+            <img src="images/cart-mail.svg" alt="">
+            <p class="cart__link">
+              E-mail: <span class="cart__link-span"><a
+                  href="mailto:s.valera@soyuz-k.com">s.valera@soyuz-k.com</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <div class="clients__top-content">
+        <h1 class="clients__top-title">Как стать клиентом «Якнига-Союз»</h1>
+        <p class="clients__top-text">
+          / Стать нашим партнером очень просто:
+        </p>
+      </div>
+      <div class="clients__inner">
+        <ol class="clients__list order-list">
+          <li class="clients__item order">
+            <p class="clients__item-text">
+              Ознакомьтесь со схемой нашей работы
+            </p>
+            <button class="clients__item-btn">Схема работы с нами</button>
+          </li>
+          <li class="clients__item order">
+            <p class="clients__item-text">
+              Скачайте и подпишите договор и отправьте нам экземпляр по электронной почте. Наш менеджер свяжется с Вами
+              и обговорит все условия.
+            </p>
+            <button class="clients__item-btn">Скачать договор</button>
+          </li>
+          <li class="clients__item order">
+            <p class="clients__item-text">
+              Нажмите на кнопку Стать клиентом и пройдите процедуру регистрации для доступа к специальным разделам для
+              клиентов, где вы сможете получить дополнительные функции. Детали также у менеджера.
+            </p>
+            <button class="clients__item-btn">Стать клиентом</button>
+          </li>
+          <li class="clients__item order">
+            <p class="clients__item-text">
+              Подпишитесь на рассылку прайс-листов по тем категориям товаров, которые нужны именно вам. Вам будут
+              приходить прайс-листы, специальные предложения и торговые материалы. В любой момент подписку можно
+              изменить или прекратить.
+            </p>
+            <button class="clients__item-btn">Подписаться на рассылку новых прайс-листов</button>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__box">
+          <img class="footer__logo" src="images/logo.png" alt="">
+          <ul class="footer__box-list">
+            <li class="footer__box-list-underlined"><a class="footer__box-list-link" href="#">Схема проезда на склад</a>
+            </li>
+            <li class="footer__box-list-underlined"><a class="footer__box-list-link" href="#">Филиалы</a> </li>
+            <li class="footer__box-list-underlined"><a class="footer__box-list-link" href="#">Мы на портале
+                поставщиков!</a> </li>
+            <li class="footer__box-list-underlined"><a class="footer__box-list-link" href="#">Осуществляем экспортные
+                поставки</a> </li>
+          </ul>
+        </div>
+        <div class="footer__box">
+          <h5 class="footer__box-title">Прайс-листы</h5>
+          <ul class="footer__box-list">
+            <li class="footer__box-list-item"><a class="footer__box-list-link hover-anim" href="#">Новости</a></li>
+            <li class="footer__box-list-item"><a class="footer__box-list-link hover-anim" href="#">О наc</a></li>
+            <li class="footer__box-list-item"><a class="footer__box-list-link hover-anim" href="#">Оптовикам</a></li>
+            <li class="footer__box-list-item"><a class="footer__box-list-link hover-anim" href="#">Поставщикам</a></li>
+          </ul>
+        </div>
+        <div class="footer__box">
+          <h5 class="footer__box-title">Розница</h5>
+          <ul class="footer__box-list">
+            <li class="footer__box-list-item">
+              <a class="footer__box-list-link hover-anim" href="#">
+                Новые поставщики
+              </a>
+            </li>
+            <li class="footer__box-list-item">
+              <a class="footer__box-list-link hover-anim" href="#">
+                Контакты
+              </a>
+            </li>
+            <li class="footer__box-list-item">
+              <a class="footer__box-list-link blue hover-anim" href="#">
+                Новинки
+              </a>
+            </li>
+            <li class="footer__box-list-item">
+              <a class="footer__box-list-link red hover-anim" href="#">
+                Акции
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__box">
+          <a class="footer__box-mail-link" href="mailto:s.valera@soyuz-k.com">s.valera@soyuz-k.com</a>
+          <ul class="footer__box-list">
+            <li class="footer__box-list-item-phone"><a class="footer__box-list-link hover-anim"
+                href="tel:8 499 123-34-89">8 499 123-34-89</a></li>
+            <li class="footer__box-list-item-phone"><a class="footer__box-list-link hover-anim"
+                href="tel:8 499 123-34-89">8 499 123-34-89</a></li>
+            <li class="footer__box-list-item-phone"><a class="footer__box-list-link hover-anim"
+                href="tel:8 499 123-34-89">8 499 123-34-89</a></li>
+            <li class="footer__box-list-item-phone"><a class="footer__box-list-link hover-anim"
+                href="tel:8 499 123-34-89">8 499 123-34-89</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__bottom-text">
+          ООО «Торговая компания СОЮЗ» 2021
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
